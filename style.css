@@ -1,0 +1,27 @@
+body{
+margin: 0;
+padding: 0;
+background-color: rgba(0, 0, 0, 0);
+}
+ul{
+display:flex;
+gap: 50px;
+position: absolute;
+top: 1%;
+left: 35%;
+list-style: none;
+color: rgb(255, 255, 255);
+font-size: 25px;
+}
+li:hover{
+    color: rgb(14, 8, 8);
+    text-shadow: 
+                0 0 10px #00f3ff,
+                0 0 20px #ffffff,
+                0 0 40px #00f3ff,
+                0 0 80px #3b3b3b;
+}
+main{
+
+    background-color: aqua;
+}
